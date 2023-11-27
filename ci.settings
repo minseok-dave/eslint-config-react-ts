@@ -1,0 +1,41 @@
+.vscode > settings.json
+
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": false,
+      "**/.hg": false,
+      "**/CVS": false,
+      "**/.DS_Store": false,
+      "**/Thumbs.db": false,
+      "**/node_modules": true
+    },
+    "explorerExclude.backup": {},
+    "tailwindCSS.experimental.classRegex": [
+      ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+    ]
+}
+
+.vscode > extensions.json
+
+{
+    "recommendations": [
+        "csstools.postcss",
+        "formulahendry.auto-rename-tag",
+        "dbaeumer.vscode-eslint",
+        "peterschmalfeldt.explorer-exclude",
+        "eamodio.gitlens",
+        "pkief.material-icon-theme",
+        "codeandstuff.package-json-upgrade",
+        "esbenp.prettier-vscode",
+        "jock.svg",
+        "bradlc.vscode-tailwindcss",
+        "austenc.tailwind-docs",
+        "meganrogge.template-string-converter",
+        "wayou.vscode-todo-highlight"
+    ]
+}

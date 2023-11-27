@@ -1,0 +1,48 @@
+{
+  "name": "@minseok-dave/eslint-config-react",
+  "version": "1.0.0",
+  "private": false,
+  "description": "React + Typescript + Tailwind eslint",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minseok-dave/eslint-config-react-ts"
+  },
+  "keywords": [
+    "eslint-config-react",
+    "@minseok-dave/eslint-config-react"
+  ],
+  "author": {
+    "name": "minseok-dave",
+    "email": "gitconquerorg@gmail.com",
+    "url": "https://github.com/minseok-dave"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minseok-dave/eslint-config-react-ts/issues"
+  },
+  "homepage": "https://github.com/minseok-dave/eslint-config-react-ts",
+  "publishConfig": {
+    "@minseok-dave:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.2",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "eslint-plugin-tailwindcss": "^3.13.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "prettier": "^3.1.0"
+  }
+}
