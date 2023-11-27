@@ -1,6 +1,6 @@
 {
-  "name": "@minseok-dave/eslint-config-react",
-  "version": "1.0.0",
+  "name": "@minseok-dave/eslint-config-react-ts",
+  "version": "1.0.1",
   "private": false,
   "description": "React + Typescript + Tailwind eslint",
   "main": "index.js",
